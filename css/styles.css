@@ -11,9 +11,13 @@ body{
 /*LAYOUT*/
 
 .container{
-	//width: 90%;
+	width:1170px;
 	max-width: 1200px;
-	margin: 0 10% auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 .bgGrey{
@@ -27,8 +31,15 @@ body{
 	clear: both;
 }
 
+#siteUtilitiesBar{
+	height:20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin:auto;
+}
+
 #utilitiesRight{
-	float: right
+	float: right;
 }
 
 #searchBar{
@@ -45,13 +56,17 @@ body{
 .column3 {
 	float: left;
 	width: 23.3%;
-	padding: 5px;
+	padding-left: 15px;
+	padding-right:15px;
+	
 	
 }
 
 .pushRight{
 	margin-left: 15%;
 }
+
+
 .clear{
 	clear: both;
 }
@@ -62,8 +77,11 @@ footer{
 }
 
 iframe{
-	width: 100%;
+	width: 70%;
 	height: 350px;
+	margin-top: 15px;
+	margin:auto;
+
 }
 
 /*NAVIGATION*/
