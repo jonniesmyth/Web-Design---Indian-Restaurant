@@ -1,5 +1,5 @@
 /*Stylesheet for Indian Restaurant Web Design Project*/
-
+/*
 
 /*BODY*/
 
@@ -11,59 +11,25 @@ body{
 /*LAYOUT*/
 
 .container{
-	width:1170px;
+	width: 80%;
 	max-width: 1200px;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-left:auto;
-	margin-right:auto;
+	margin: 0px auto;
 	
 }
 
-.bgGrey{
+.containerGrey{
 	padding-top: 40px;
-	background-color: #cccccc;
-	border-bottom: 1px solid black;
+	background-color: #ded9d9;
 }
 
-.centerContent{
-	margin: auto;
-	clear: both;
-}
 
-#siteUtilitiesBar{
-	height:20px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin:auto;
-}
 
-#utilitiesRight{
-	float: right;
-}
-
-#searchBar{
-    width:75px;
-    height: 10px;
-    border-radius: 5px;
-    font-size: 10px;
-}
-
-#searchButton{
-	height:20px;
-}
 
 .column3 {
 	float: left;
-	width: 23.3%;
-	padding-left: 15px;
-	padding-right:15px;
+	width: 33.3%;
 	
 	
-}
-
-.pushRight{
-	margin-left: 15%;
 }
 
 
@@ -72,16 +38,11 @@ body{
 }
 
 
-footer{
-	
-}
+
 
 iframe{
-	width: 70%;
+	width: 100%;
 	height: 350px;
-	margin-top: 15px;
-	margin:auto;
-
 }
 
 /*NAVIGATION*/
@@ -111,34 +72,49 @@ ul li a{
 /*TEXT STYLING*/
 
 h1{
-	display: inline;
+	font-size: 20px;
+	//text-align: center;
+	//display: inline-block;
+	margin: 0px;
 }
 
-h1,h2, h3 {
+h2, h3 {
 	text-align: center;
-	margin: 10px;
+	margin-top: 10px;
 }
 
 p{
-	font-size: 14px;
-	font-weight: normal
+	font-size: 16px;
 }
 
 .bodyText{
 	text-align: left;
+	padding-right: 15px;
 }
 
 
-#breadcrumbs {
-	display: inline-block
+#breadCrumbs {
+	display: inline-block;
+	//float: right;
 }
 
-div {
-	margin: auto;
+#siteidUtilitiesBar{
+	border: 1px solid black;
+	margin:0px auto;
 	text-align: center;
-	//width: 33%;
-	//display: inline-block;
+	
+	
+
 }
+
+.utilities{
+	width: 33.3%;
+	float: left;
+	display: inline-block;
+	
+}
+
+
 
 #logo {
 	float: left;
@@ -148,6 +124,12 @@ div {
 	font-size: 10px;
 	display: inline;
 	margin-right: 50px;
+}
+
+#searchBar{
+	height: 15px;
+	width: 100px;
+	border-radius: 10%;
 }
 
 
