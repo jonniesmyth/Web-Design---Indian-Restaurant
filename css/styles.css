@@ -71,7 +71,6 @@ p{
 }
 
 #siteidUtilitiesBar{
-	border: 1px solid black;
 	margin:0px auto;
 	text-align: center;
 	
@@ -127,6 +126,7 @@ ul li{
 
 ul li a{
 	color: #e6d5d5;
+	font-size: 18px;
 }
 
 
@@ -168,4 +168,19 @@ tr:nth-child(even) {
 th, td {
     padding: 10px;
     text-align: left;
+}
+
+.phoneEmail{
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+}
+
+/*FOOTER SECTION*/
+#footerNavbar {
+	background-color: #242121;
+	//height:20px;
+	padding: 5px 0px;
+	margin: 0 auto;
+	
 }
