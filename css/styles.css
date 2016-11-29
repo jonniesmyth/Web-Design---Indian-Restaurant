@@ -20,6 +20,8 @@ body{
 .sectionGrey{
 	padding-top: 40px;
 	background-color: #ded9d9;
+	border-bottom: 1px solid grey;
+	margin-bottom: 30px;
 }
 
 
@@ -46,9 +48,18 @@ h1{
 	margin: 0px;
 }
 
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 25px;
+	//margin-bottom: 15px;
+}
+
 h2, h3 {
 	text-align: center;
-	margin-top: 10px;
+	margin: 15px 0px 15px 0px;
 }
 
 p{
@@ -60,7 +71,22 @@ p{
 	padding-right: 15px;
 }
 
+/*HERO SECTION*/
 
+#hero{
+	height: 350px;
+	text-align: center;
+}
+
+#hero h2{
+	line-height: 150px;
+	
+	font-size: 60px;
+}
+
+#hero li a{
+	color: red;
+}
 
 
 /*SITE ID & UTILITIES*/
