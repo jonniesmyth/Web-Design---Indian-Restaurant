@@ -130,7 +130,9 @@ ul li a{
 }
 
 
-
+a:hover{
+	color: #42bcf4;
+}
 
 /*OPENING HOURS SECTION*/
 
