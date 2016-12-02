@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>About Page</title>
+    <title>Contact Page</title>
   <meta name="author" content="Felica Comsa, Muhammad Arif, Jonathan Smyth and Christian Quinlan">
   <meta name="description" content="Website for an Indian Restaurant (Web Design Project)">
   <meta name="keywords" content="keywords,here">
@@ -25,7 +25,7 @@
   				<h1>The Big Indian Restaurant</h1>
   				</div>
   				<div class="utilities">
-				<p id="breadCrumbs"><a href="">Home>></a> About</p>
+				<p id="breadCrumbs"><a href="">Home>></a> Contact</p>
 				<input type="text" placeholder="Search" id="searchBar">
 				<button id="searchButton">Search</button>
   			</div><!--end of utilities-->
@@ -39,7 +39,7 @@
   	<!--HERO SECTION-->
   	<section id="hero">
   	
-  		<h2>About Us</h2>
+  		<h2>Contact Us</h2>
   		
   		
   	</section><!--End of Hero-->
@@ -60,70 +60,99 @@
   		
   	</nav><!--End of Nav-->
   	
-  	<!--HISTORY SECTION-->
+  	<!--QUESTIONS SECTION-->
   	
-  	<section id="history" class="sectionGrey">
+  	<section id="questions" class="sectionGrey">
   	
   	<div class="container">
   		
-  		<h2>History</h2>
+  		<h2>Have Any Questions?</h2>
   		
-  		<div class="column2">
+  		<div class="column1">
   			
   			<p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat libero at facilisis. Quisque et facilisis lorem, at ultrices dui. Maecenas cursus, ex non efficitur vestibulum, ligula mi posuere libero, et malesuada diam odio sit amet risus. Pellentesque congue pharetra tortor sit amet faucibus. Sed lorem purus, blandit eget semper sed, rutrum vitae magna</p>
   			
   		</div><!---->
   		
   		
-  		<div class="column2">
-  			
-  			<p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat libero at facilisis. Quisque et facilisis lorem, at ultrices dui. Maecenas cursus, ex non efficitur vestibulum, ligula mi posuere libero, et malesuada diam odio sit amet risus. Pellentesque congue pharetra tortor sit amet faucibus. Sed lorem purus, blandit eget semper sed, rutrum vitae magna.</p>
-  			
-  		</div><!---->
+  		
   		
   		<footer class="clear"></footer>
   		
   		</div><!--end of container-->
   		
-  	</section><!--End of history-->
+  	</section><!--End of questions section-->
   	
-  	<!--STAFF SECTION-->
+  	<!--CONTACT FORM SECTION-->
   	
-  	<section id="location" class="container">
+  	<section id="contactForm" class="container">
   	
-  	<h2>Staff</h2>
+  	<h2>Drop us a Line</h2>
   		
-  		<div class="column4 ">
-  		  <img class="col-4-img" alt="" src="">
-  			<h3>Staff one</h3>
-  			<p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat libero at facilisis. Quisque et facilisis lorem, at ultrices dui. Maecenas cursus, ex non efficitur vestibulum, ligula mi posuere libero, et malesuada diam odio sit amet risus. Pellentesque congue pharetra tortor sit amet faucibus. Sed lorem purus, blandit eget semper sed, rutrum vitae magna.</p>
+  		<div class="column1 ">
+  		  <form>
+  		    <fieldset>
+    		    <label>Name: </label>
+    		    <input type="text" name="name" id="name">
+    		    
+    		    <!--JAVASCRIPT Hidden input field -->
+    		    <label>Confirm Name: </label>
+    		    <input type="text" name="confirmName" id="confirnName">
+    		    <!--end of JAVASCRIPT Hidden input field  -->
+    		    
+    		    <br>
+    		    <label>Email: </label>
+    		    <input type="email" name="email" id="email">
+    		    
+    		    <!--JAVASCRIPT CONFIRM EMAIL (Hidden input field) -->
+    		    <label>Confirm Email: </label>
+    		    <input type="email" name="confirmEmail" id="confirnEmail">
+    		    <!--end of JAVASCRIPT CONFIRM EMAIL  -->
+    		    
+    		    <br>
+    		    <label>Telephone No: </label>
+    		    <input type="text" name="telephone" id="telephone">
+    		    
+    		    <br>
+    		    <label>Have you ever been to our restaurant before?: </label>
+    		    <select name="previousVisitor">
+    		      <option value="yes" id="visitYes">Yes</option>
+    		      <option value="no" id="visitNo">No</option>
+    		    </select>
+    		    
+    		    <!--JAVASCRIPT RATE EXPERIENCE (Hidden input field) -->
+    		    <br>
+    		    <label>How would you rate your experience?: </label>
+    		    <select name="rateExperience">
+    		      <option value="Amazing" id="amazing">Amazing. Five Stars!!</option>
+    		      <option value="veryGood" id="veryGood">Very Good. Four Stars!</option>
+    		      <option value="Good" id="good">Good. Three Stars!!</option>
+    		      <option value="Poor" id="poor">Poor. Two Stars.</option>
+    		      <option value="Bad" id="bad">Bad. One Star.</option>
+    		    </select>
+    		    <!--end of JAVASCRIPT RATE EXPERIENCE  -->
+    		    
+    		    <br>
+    		    <label>Your question: </label>
+    		    <br>
+    		    <textarea name="message" rows="10" cols="30">
+            </textarea>
+            
+            <br>
+            <label>Would you like to be added to our monthly email newsletter?</label>
+            <input type="checkbox" name="addMe">Yes
+            <br>
+            <button name="submitQuestion" id="submitQuestion">Submit Your Question</button>
+          </fieldset>
+  		  </form>
   			
   		</div><!---->
   		
-  		<div class="column4">
-  		  <img class="col-4-img" alt="" src="">
-  			<h3>Staff Two</h3>
-  			<p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat libero at facilisis. Quisque et facilisis lorem, at ultrices dui. Maecenas cursus, ex non efficitur vestibulum, ligula mi posuere libero, et malesuada diam odio sit amet risus. Pellentesque congue pharetra tortor sit amet faucibus. Sed lorem purus, blandit eget semper sed, rutrum vitae magna.</p>
-  			
-  		</div><!---->
   		
-  		<div class="column4">
-  		  <img class="col-4-img" alt="" src="">
-  			<h3>Staff Three</h3>
-  			<p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat libero at facilisis. Quisque et facilisis lorem, at ultrices dui. Maecenas cursus, ex non efficitur vestibulum, ligula mi posuere libero, et malesuada diam odio sit amet risus. Pellentesque congue pharetra tortor sit amet faucibus. Sed lorem purus, blandit eget semper sed, rutrum vitae magna..</p>
-  		
-  		</div><!---->
-  		
-  		<div class="column4">
-  		  <img class="col-4-img" alt="" src="">
-  			<h3>Staff Four</h3>
-  			<p class="bodyText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar consequat libero at facilisis. Quisque et facilisis lorem, at ultrices dui. Maecenas cursus, ex non efficitur vestibulum, ligula mi posuere libero, et malesuada diam odio sit amet risus. Pellentesque congue pharetra tortor sit amet faucibus. Sed lorem purus, blandit eget semper sed, rutrum vitae magna..</p>
-  		
-  		</div><!---->
   		
   	  <footer class="clear"></footer>
   		
-  	</section><!--End of staff section-->
+  	</section><!--End of contact form section-->
   	
   	
   		<!--LOCATION SECTION-->
